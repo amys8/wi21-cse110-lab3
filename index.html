@@ -170,13 +170,80 @@
     I own a fish tank full of guppies.
    </details>
   </section>
-   
+  
+  <h3>Template<h3>
   <div id="container"></div>
 
   <template id="template">
    <div>Click me</div>
   </template>
   
+  <h3>Forms</h3>
+  <form>
+   
+   <div>
+    <label for="name">Enter your name: </label>
+    <input type="text" name="name" id="name" required>
+   </div>
+   
+   <div>
+    <label for="email">Enter your email: </label>
+    <input type="email" name="email" id="email" required>
+   </div>
+   
+   <div>
+    <label for="drink-choice">Choose a drink:</label>
+    <select id="drink-select">
+     <optgroup label="Soda">
+      <option>Dr. Pepper</option>
+      <option>Sprite</option>
+     </optgroup>
+     <optgroup label="Juice">
+      <option>Apple</option>
+      <option>Orange</option>
+     </optgroup>
+     <optgroup label="Milk">
+      <option>Dairy</option>
+      <option>Nut</option>
+     </optgroup>
+    </select>
+   </div>
+   
+   <div>
+    <label for="genre-choice">Choose a genre:</label>
+    <input list="genres" id="genres" name="genres" />
+
+    <datalist id="genres">
+     <option value="Action">
+     <option value="Drama">
+     <option value="Thriller">
+     <option value="Comedy">
+     <option value="Romance">
+    </datalist>
+   </div>
+   
+   <div>
+    <fieldset>
+     <legend>Choose a topping:</legend>
+     <input type="radio" id="jam">
+     <label for="jam">Jam</label><br>
+     <input type="radio" id="butter">
+     <label for="butter">Butter</label><br>
+     <input type="radio" id="syrup">
+     <label for="syrup">Syrup</label>
+    </fieldset>
+   </div>
+   
+   <div>
+    <label for="story">Tell me a fun fact about yourself:</label>
+    <textarea id="story" name="story"
+    rows="5" cols="30"
+    placeholder="Comment text.">
+    </textarea>
+   </div>
+   
+  </form> 
+    
   <footer>
    <p>copyright by me</p>
   </footer>

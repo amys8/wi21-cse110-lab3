@@ -31,7 +31,7 @@ a:link {
 }
 
 /* visited link */
-a:visited {
+a:visited { 
   color: blue;
 }
 

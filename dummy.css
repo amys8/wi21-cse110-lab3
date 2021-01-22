@@ -18,7 +18,7 @@ body {
   border: dotted 1pt pink;
   margin: auto;
   width: 200px;
-  height: 200px;
+  height: 225px;
   padding-top: 10px;
   padding-bottom: 10px;
   padding-right: 10px;
@@ -35,11 +35,16 @@ a:visited {
   color: blue;
 }
 
-/* mouse over link */
+/* hover over link */
 a:hover {
   color: red;
 }
 
-/* selected link */
+/* active link */
 a:active {
   color: yellow;
+}
+
+input[type="text"] {
+  color: purple;
+}

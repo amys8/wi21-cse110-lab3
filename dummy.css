@@ -13,6 +13,18 @@ body {
   margin: 30px 30px 30px 30px;
 }
 
+.heart {
+  color: red;
+  border: dotted 1pt pink;
+  margin: auto;
+  width: 500px;
+  height: 500px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
 /* unvisited link */
 a:link {
   color: blue;

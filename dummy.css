@@ -6,9 +6,9 @@ body {
   background-color: rgb(255, 240, 245);
 }
 
-.forms {
-  background-color: white;
-  padding: 10px;
-  border: 10px solid black;
-  margin: 10;
+#forms {
+  background-color: hsl(0°, 0%, 96.1%);
+  padding: 20px;
+  border: 6px solid palevioletred;
+  margin: 30px;
 }

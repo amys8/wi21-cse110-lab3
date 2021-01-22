@@ -59,7 +59,8 @@ footer.fixed {
   margin-right: 2px;
 }
 
-nav.sticky {
+.sticky {
+  position: -webkit-sticky;
   position: sticky;
   margin: auto;
 }

@@ -48,3 +48,18 @@ a:active {
 input[type="text"] {
   color: purple;
 }
+
+footer.fixed {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  margin-top: 2px;
+  margin-bottom: 2px;
+  margin-left: 2px;
+  margin-right: 2px;
+}
+
+nav.sticky {
+  position: sticky;
+  margin: auto;
+}

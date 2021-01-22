@@ -59,7 +59,7 @@ footer.fixed {
   margin-right: 2px;
 }
 
-.sticky {
-  position: sticky;
-  top: 0;
+main > p {
+  position: relative;
+  left: 1cm;
 }

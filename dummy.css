@@ -9,6 +9,6 @@ body {
 #forms {
   background-color: hsl(0, 0%, 96.1%);
   padding: 20px;
-  border: 6px solid palevioletred;
+  border: solid 6px red;
   margin: 30px;
 }

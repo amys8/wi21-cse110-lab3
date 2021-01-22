@@ -77,3 +77,22 @@ nav > a {
   padding: 10px;
   font-size: 0.8em;
 }
+
+.gridcontainer {
+  display: grid;
+  grid-template-areas:
+    'header header header header header header'
+    'one one one two two two'
+    'one one one two two two'
+    'three three three four four four'
+    'three three three four four four';
+  grid-gap: 10px;
+  background-color: #2196F3;
+  padding: 10px;
+}
+
+.griditema { grid-area: header; }
+.griditemb { grid-area: one; }
+.griditemd { grid-area: two; }
+.griditemc { grid-area: three; }
+.griditeme { grid-area: four; }

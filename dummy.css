@@ -93,3 +93,9 @@ nav > a {
 .griditemd { grid-area: two; }
 .griditemc { grid-area: three; }
 .griditeme { grid-area: four; }
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: #E6E6FA;
+  }
+}

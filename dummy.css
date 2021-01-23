@@ -101,7 +101,7 @@ nav a {
 }
 
 h2 ~ p {
-  display: inline;
+  display: block;
 }
 
 ul + p {

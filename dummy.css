@@ -81,14 +81,11 @@ nav > a {
 .gridcontainer {
   display: grid;
   grid-template-areas:
-    'header header header header header header'
-    'one one one two two two'
-    'one one one two two two'
-    'three three three four four four'
-    'three three three four four four';
+    'header header;
+    'one two'
+    'three four';
   grid-gap: 10px;
-  background-color: #2196F3;
-  padding: 10px;
+  align-content: center;
 }
 
 .griditema { grid-area: header; }

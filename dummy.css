@@ -81,7 +81,7 @@ nav > a {
 .gridcontainer {
   display: grid;
   grid-template-areas:
-    'header header;
+    'header header';
     'one two'
     'three four';
   grid-gap: 10px;
